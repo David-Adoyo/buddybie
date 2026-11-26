@@ -1,10 +1,10 @@
-# Be a Buddy
+# Buddybie
 
 > Find your people. A verified, goals-first community app for faith, work, fun,
 > growth and love — online and in real life. Nairobi first.
 
 Built in nine staged passes from the master plan
-(`Be a Buddy — Master Plan & Build Prompt.md`). This repository is at **Stage 1 —
+(`Buddybie — Master Plan & Build Prompt.md`). This repository is at **Stage 1 —
 Foundation**.
 
 ## Stack

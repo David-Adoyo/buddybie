@@ -1,27 +1,20 @@
 {
-  "name": "Be a Buddy",
-  "short_name": "Be a Buddy",
-  "description": "Find your people. A verified, goals-first community for faith, work, fun, growth and love.",
+  "id": "/",
+  "name": "Buddybie — Meet People Worth Meeting",
+  "short_name": "Buddybie",
+  "description": "Make friends, find accountability and travel buddies, and meet verified people who share your values — online and in real life.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "background_color": "#fffbf7",
-  "theme_color": "#e8604c",
+  "theme_color": "#e0433a",
   "orientation": "portrait-primary",
   "lang": "en",
   "categories": ["social", "lifestyle"],
   "icons": [
-    {
-      "src": "/icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/icons/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }

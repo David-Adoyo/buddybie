@@ -89,7 +89,7 @@ export default function SignInPage() {
   return (
     <div className="flex min-h-full flex-col">
       <header className="flex items-center justify-between px-4 py-4">
-        <Link href="/" aria-label="Be a Buddy home">
+        <Link href="/" aria-label="Buddybie home">
           <Logo />
         </Link>
         <ThemeToggle />

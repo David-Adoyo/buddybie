@@ -172,7 +172,7 @@ export default function OnboardingPage() {
     <div className="flex min-h-full flex-col">
       <header className="border-b">
         <div className="mx-auto flex max-w-2xl items-center justify-between px-4 py-4">
-          <Link href="/" aria-label="Be a Buddy home">
+          <Link href="/" aria-label="Buddybie home">
             <Logo />
           </Link>
           <span className="text-sm text-muted-foreground">

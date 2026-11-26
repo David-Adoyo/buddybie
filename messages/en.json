@@ -1,6 +1,6 @@
 {
   "common": {
-    "appName": "Be a Buddy",
+    "appName": "Buddybie",
     "tagline": "Meet People Worth Meeting",
     "continue": "Continue",
     "back": "Back",
@@ -29,7 +29,7 @@
   "landing": {
     "eyebrow": "Verified · Warm · Worldwide",
     "heroTitle": "Meet People Worth Meeting.",
-    "heroSubtitle": "Be a Buddy is a warm, verified community where you meet real people who share your values — for faith, friendship, growth, love and every adventure in between.",
+    "heroSubtitle": "Buddybie is a warm, verified community where you meet real people who share your values — for faith, friendship, growth, love and every adventure in between.",
     "heroCtaPrimary": "Get started free",
     "heroCtaSecondary": "Explore Circles",
     "trustLine": "Verified real people · Built-in safety tools · Pay your way",
@@ -54,14 +54,14 @@
     "howStep3Title": "Meet your buddies",
     "howStep3Desc": "Get matched, join groups and show up to real meetups near you.",
     "waitlistTitle": "Be the first in your city",
-    "waitlistSubtitle": "Drop your details and we will reach out as soon as Be a Buddy opens near you.",
+    "waitlistSubtitle": "Drop your details and we will reach out as soon as Buddybie opens near you.",
     "waitlistName": "Your name",
     "waitlistEmail": "Email",
     "waitlistPhone": "Phone (optional)",
     "waitlistCircle": "Which Circle are you most excited for?",
     "waitlistSubmit": "Join the waitlist",
     "waitlistSubmitting": "Joining…",
-    "waitlistSuccess": "You are on the list! We will be in touch soon — welcome to the Be a Buddy family.",
+    "waitlistSuccess": "You are on the list! We will be in touch soon — welcome to the Buddybie family.",
     "waitlistError": "Something went wrong. Please try again.",
     "waitlistDemoNote": "Demo mode: your details are not stored until Supabase is connected.",
     "pricingTitle": "Simple, honest pricing",
@@ -136,7 +136,7 @@
     "scaleAgree": "Agree",
     "scaleStronglyAgree": "Strongly agree",
     "finishTitle": "You are all set!",
-    "finishSubtitle": "Welcome to Be a Buddy. Your Circles are ready and your goals are live.",
+    "finishSubtitle": "Welcome to Buddybie. Your Circles are ready and your goals are live.",
     "finishCta": "Go to my home",
     "errorNameRequired": "Please add a name so buddies know you.",
     "errorAreaRequired": "Please choose your area.",
@@ -205,7 +205,7 @@
     "bioPlaceholder": "Share what you are here for…",
     "visibilityTitle": "Who can see this profile?",
     "vis_public": "Public",
-    "vis_public_desc": "Anyone on Be a Buddy",
+    "vis_public_desc": "Anyone on Buddybie",
     "vis_members": "Circle members",
     "vis_members_desc": "Only people in this Circle",
     "vis_private": "Private",
@@ -250,8 +250,8 @@
     "orgCompany": "Company",
     "orgVenue": "Venue",
     "orgSubmit": "Submit for review",
-    "scamWarning": "This looks like it may ask for money or to move off-app. Never send money, and keep chats on Be a Buddy.",
-    "explicitWarning": "Explicit sexual content is not allowed on Be a Buddy. This message cannot be sent.",
+    "scamWarning": "This looks like it may ask for money or to move off-app. Never send money, and keep chats on Buddybie.",
+    "explicitWarning": "Explicit sexual content is not allowed on Buddybie. This message cannot be sent.",
     "reportTitle": "Report {name}",
     "reportSubtitle": "Tell us what is wrong. Reports are private and reviewed within 24 hours.",
     "reportReason": "Reason",
@@ -276,7 +276,7 @@
     "planWhen": "When",
     "planContact": "Share with",
     "planContactNone": "Choose a trusted contact",
-    "planSummary": "Be a Buddy plan: I am going to {what} at {where} on {when}. If you do not hear from me, please check in. Shared with {name}.",
+    "planSummary": "Buddybie plan: I am going to {what} at {where} on {when}. If you do not hear from me, please check in. Shared with {name}.",
     "planCopy": "Copy plan",
     "planCopied": "Copied!",
     "checkInTitle": "Check-in timer",
@@ -348,7 +348,7 @@
   },
   "admin": {
     "gateTitle": "Admin console",
-    "gateBody": "For Be a Buddy staff. In production, access is enforced by Row Level Security (moderator / super_admin).",
+    "gateBody": "For Buddybie staff. In production, access is enforced by Row Level Security (moderator / super_admin).",
     "gateEnable": "Enter admin view (demo)",
     "title": "Admin console",
     "reports": "Reports",
@@ -581,11 +581,11 @@
     "godlyDatingTip2": "Respect boundaries — a no is always final.",
     "godlyDatingTip3": "Meet in public first, and use your Safety Kit every time.",
     "godlyDatingTip4": "Build genuine connection before moving quickly.",
-    "godlyDatingTip5": "Keep chats on Be a Buddy until you truly trust someone.",
+    "godlyDatingTip5": "Keep chats on Buddybie until you truly trust someone.",
     "intent_godly": "Godly / faith-led"
   },
   "footer": {
-    "rights": "© {year} Be a Buddy. Meet People Worth Meeting.",
+    "rights": "© {year} Buddybie. Meet People Worth Meeting.",
     "madeIn": "Made with care for people everywhere.",
     "lowData": "Low-data mode",
     "language": "Language",
@@ -603,7 +603,7 @@
     "legalHeading": "Legal"
   },
   "consent": {
-    "body": "We use essential cookies to run Be a Buddy, and optional ones to improve it.",
+    "body": "We use essential cookies to run Buddybie, and optional ones to improve it.",
     "privacy": "Privacy policy",
     "declineNonEssential": "Decline non-essential",
     "acceptAll": "Accept all"
@@ -657,7 +657,7 @@
     "tip2": "Tell a trusted contact where you are going, when, and who you are meeting.",
     "tip3": "Arrive and leave independently on your first meeting. Do not share your home address.",
     "tip4": "Trust your instincts — never feel pressured to stay if something feels wrong.",
-    "tip5": "Report anything suspicious to Be a Buddy straight away.",
+    "tip5": "Report anything suspicious to Buddybie straight away.",
     "kitLink": "Open safety kit →",
     "dismiss": "Got it"
   }

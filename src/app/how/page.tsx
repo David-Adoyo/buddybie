@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { Target, Wand2, ShieldCheck, Smartphone, ArrowRight } from "lucide-react";
+import { PageHero } from "@/components/page-hero";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { Card } from "@/components/ui/card";
@@ -9,9 +10,9 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "How it works — Be a Buddy",
+  title: "How It Works — Make Friends as an Adult",
   description:
-    "Verify once, pick your Circles and meet real people near you. Be a Buddy connects you through shared goals, values and neighbourhood.",
+    "Verify once, pick your Circles and meet real people near you. Buddybie connects you through shared goals, values and neighbourhood.",
   alternates: { canonical: "/how" },
 };
 
@@ -36,12 +37,12 @@ export default async function HowItWorksPage() {
       <SiteHeader />
       <main id="main-content" className="flex-1">
         <div className="mx-auto max-w-6xl px-4 py-16">
-          <div className="mb-12 max-w-2xl">
-            <h1 className="text-4xl font-extrabold tracking-tight">{t("howTitle")}</h1>
-            <p className="mt-3 text-lg text-muted-foreground">
-              Three simple steps to meet real people who share your goals and values.
-            </p>
-          </div>
+          <PageHero
+            eyebrow="Getting started"
+            title={t("howTitle")}
+            subtitle="Three simple steps to meet real people who share your goals and values."
+            photo="welcome"
+          />
 
           <ol className="grid gap-8 md:grid-cols-3">
             {steps.map((step, i) => (

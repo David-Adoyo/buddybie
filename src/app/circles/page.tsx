@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { ArrowRight } from "lucide-react";
+import { PageHero } from "@/components/page-hero";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { Card } from "@/components/ui/card";
@@ -11,7 +12,7 @@ import { circles } from "@/data/circles";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Circles — Be a Buddy",
+  title: "Circles — Find Friends Who Share Your Interests",
   description:
     "One identity, many Circles. Friends, Faith, Work, Spark, Goals, Fitness, Buddy Table and more — verify once, then choose where you show up.",
   alternates: { canonical: "/circles" },
@@ -28,10 +29,7 @@ export default async function CirclesPage() {
       <SiteHeader />
       <main id="main-content" className="flex-1">
         <div className="mx-auto max-w-6xl px-4 py-16">
-          <div className="mb-12 max-w-2xl">
-            <h1 className="text-4xl font-extrabold tracking-tight">{t("circlesTitle")}</h1>
-            <p className="mt-3 text-lg text-muted-foreground">{t("circlesSubtitle")}</p>
-          </div>
+          <PageHero eyebrow="Circles" title={t("circlesTitle")} subtitle={t("circlesSubtitle")} photo="friends" />
 
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {wave1.map((circle) => {

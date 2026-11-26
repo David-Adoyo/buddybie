@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 /*
-  Be a Buddy design tokens.
+  Buddybie design tokens.
   Brand colours are PLACEHOLDER defaults (warm, human, image-led) pending the
   confirmed palette — see {{BRAND_PRIMARY}}, {{BRAND_SECONDARY}}, {{BRAND_ACCENT}}
   in /docs/PLACEHOLDERS.md. Semantic tokens below follow the shadcn/ui contract.
@@ -13,6 +13,14 @@
   --radius: 0.9rem;
 
   --background: #fffbf7;
+
+  /* Logo palette — sampled from logo.jpeg (left → right of the wordmark). */
+  --brand-red: #e0433a;
+  --brand-orange: #ff8a4c;
+  --brand-pink: #ff5596;
+  --brand-gradient: linear-gradient(90deg, #db4338 0%, #f57c47 45%, #ff8161 60%, #ff5594 100%);
+  --ink: #1c1714;
+  --cream: #f6f1ec;
   --foreground: #2a2320;
 
   --card: #ffffff;
@@ -22,7 +30,7 @@
   --popover-foreground: #2a2320;
 
   /* {{BRAND_PRIMARY}} — warm coral */
-  --primary: #e8604c;
+  --primary: #d63a31;
   --primary-foreground: #ffffff;
 
   --secondary: #f2e9e1;
@@ -32,7 +40,7 @@
   --muted-foreground: #776b62;
 
   /* {{BRAND_ACCENT}} — amber */
-  --accent: #f4a826;
+  --accent: #ff8a4c;
   --accent-foreground: #3a2e10;
 
   --destructive: #d64545;
@@ -40,13 +48,13 @@
 
   --border: #ebe2d9;
   --input: #e4dad0;
-  --ring: #e8604c;
+  --ring: #e0433a;
 
   /* {{BRAND_SECONDARY}} — grounding teal, used for trust/verified accents */
   --brand-teal: #1f6f6b;
 
   /* Spark (Dating) has its own distinct skin (applied from Stage 5). */
-  --spark: #e5468a;
+  --spark: #e23f82;
   --spark-foreground: #ffffff;
 
   --success: #2e9e6b;
@@ -55,6 +63,8 @@
 
 .dark {
   --background: #1a1613;
+  --ink: #f6f1ec;
+  --cream: #221c18;
   --foreground: #f2ebe4;
 
   --card: #241f1a;
@@ -63,7 +73,7 @@
   --popover: #241f1a;
   --popover-foreground: #f2ebe4;
 
-  --primary: #f2745f;
+  --primary: #ff6a55;
   --primary-foreground: #2a1510;
 
   --secondary: #30281f;
@@ -72,7 +82,7 @@
   --muted: #2a241e;
   --muted-foreground: #b3a596;
 
-  --accent: #f4b64a;
+  --accent: #ff9a63;
   --accent-foreground: #241a05;
 
   --destructive: #e25555;
@@ -80,11 +90,11 @@
 
   --border: #352d24;
   --input: #3a3128;
-  --ring: #f2745f;
+  --ring: #ff6a55;
 
   --brand-teal: #4bb3ad;
 
-  --spark: #f06aa0;
+  --spark: #ff6aa6;
   --spark-foreground: #2a0a1a;
 
   --success: #46c08a;
@@ -112,12 +122,18 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
   --color-brand-teal: var(--brand-teal);
+  --color-brand-red: var(--brand-red);
+  --color-brand-orange: var(--brand-orange);
+  --color-brand-pink: var(--brand-pink);
+  --color-ink: var(--ink);
+  --color-cream: var(--cream);
   --color-spark: var(--spark);
   --color-spark-foreground: var(--spark-foreground);
   --color-success: var(--success);
   --color-warning: var(--warning);
 
   --font-sans: var(--font-geist-sans);
+  --font-display: var(--font-display-round);
   --font-mono: var(--font-geist-mono);
 
   --radius-sm: calc(var(--radius) - 4px);
@@ -158,3 +174,26 @@
 html[data-low-data="true"] [data-decorative="true"] {
   display: none;
 }
+
+/* Brand gradient text — the "buddybie." wordmark sweep. */
+.text-brand-gradient {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Mastercard-style thin orbital arcs used as hero decoration. */
+.orbit-lines {
+  background:
+    radial-gradient(circle at 100% 50%, transparent 39.6%, color-mix(in oklab, var(--brand-orange) 45%, transparent) 40%, transparent 40.4%),
+    radial-gradient(circle at 100% 50%, transparent 54.6%, color-mix(in oklab, var(--brand-pink) 35%, transparent) 55%, transparent 55.4%);
+}
+
+/* Horizontal snap carousel (story cards). */
+.snap-row {
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.snap-row::-webkit-scrollbar { display: none; }
+.snap-row > * { scroll-snap-align: start; }

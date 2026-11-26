@@ -15,7 +15,7 @@ export interface ScreenResult {
 
 const MODEL = process.env.MODERATION_MODEL || "claude-opus-4-8";
 
-const SYSTEM = `You are a content-safety pre-screen for Be a Buddy, a community app.
+const SYSTEM = `You are a content-safety pre-screen for Buddybie, a community app.
 Classify the user's text for anything that breaks community guidelines:
 - explicit sexual or nude content (ZERO TOLERANCE — always high severity, always blocked regardless of context)
 - solicitation of nude images or sexual favours
@@ -67,7 +67,7 @@ function heuristic(text: string): ScreenResult {
       severity: "high",
       labels: ["explicit"],
       reason:
-        "Explicit sexual content is not allowed on Be a Buddy. Please keep all conversations respectful and appropriate.",
+        "Explicit sexual content is not allowed on Buddybie. Please keep all conversations respectful and appropriate.",
       usedAI: false,
     };
   }
@@ -84,7 +84,7 @@ function heuristic(text: string): ScreenResult {
     severity: scam.reasons.includes("money") ? "high" : "medium",
     labels,
     reason:
-      "This looks like it may ask for money or to move off-app. Please keep conversations on Be a Buddy and never send money.",
+      "This looks like it may ask for money or to move off-app. Please keep conversations on Buddybie and never send money.",
     usedAI: false,
   };
 }

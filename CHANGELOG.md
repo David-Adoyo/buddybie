@@ -2,6 +2,16 @@
 
 All notable changes, per build stage. UK spelling throughout.
 
+## Rebrand & redesign — Buddybie
+
+- Renamed the product to **Buddybie** (wordmark `buddybie.`), including metadata, copy, legal pages and the PWA manifest.
+- Palette resampled from the logo: red `#e0433a`, orange `#ff8a4c`, pink `#ff5596`; rounded Fredoka display face.
+- Landing page restructured after mastercard.com: mega-menu header, hero panel, story carousel, solutions grid, benefits split, dark band, FAQ, "Need help?" footer.
+- Brand loader (`BuddyLoader`): the three logo circles orbit clockwise separately, then bounce one after another on an invisible line. Shown on first load, every internal link click and route `loading.tsx`.
+- Favicon set regenerated: `favicon.ico` (16/32/48), `icon.png` (32), `apple-icon.png` (180), PWA icons 192/512 plus maskable variants.
+- People photography generated in Figma for each site area (`public/images/people/*.webp`), used on the landing page and inner-page heroes.
+- SEO: keyword-led titles and descriptions, FAQPage and WebApplication JSON-LD, de-duplicated page titles, descriptive image alt text.
+
 ## Stage 9 — Launch readiness (unreleased)
 
 ### Added

@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-/** Registers the service worker so Be a Buddy is installable and works offline. */
+/** Registers the service worker so Buddybie is installable and works offline. */
 export function PwaRegister() {
   useEffect(() => {
     if (process.env.NODE_ENV !== "production") return;

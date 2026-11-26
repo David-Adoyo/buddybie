@@ -31,7 +31,7 @@ export async function POST(request: Request) {
         model: MODEL,
         max_tokens: 300,
         system:
-          "You write warm, short, friendly opening messages for Be a Buddy, a community app in the United States. Return ONLY a JSON array of exactly 3 openers, each under 20 words, no prose.",
+          "You write warm, short, friendly opening messages for Buddybie, a community app in the United States. Return ONLY a JSON array of exactly 3 openers, each under 20 words, no prose.",
         messages: [{ role: "user", content: `Name: ${name}\nTheir goal: ${goal}` }],
       });
       const block = response.content.find((b) => b.type === "text");

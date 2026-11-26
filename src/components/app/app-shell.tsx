@@ -57,7 +57,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <header className="sticky top-0 z-30 border-b bg-background/80 backdrop-blur">
         <div className="mx-auto flex h-16 max-w-4xl items-center justify-between gap-3 px-4">
           <div className="flex items-center gap-3">
-            <Link href="/home" aria-label="Be a Buddy home">
+            <Link href="/home" aria-label="Buddybie home">
               <Logo />
             </Link>
             <CircleSwitcher />

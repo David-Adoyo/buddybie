@@ -84,7 +84,7 @@ export const circleGoalSuggestions: Record<CircleId, string[]> = {
     "Build a routine that balances work, parenting and self-care",
   ],
   travel: [
-    "Meet a local through Be a Buddy on my next trip",
+    "Meet a local through Buddybie on my next trip",
     "Find a travel buddy for a destination I have been eyeing",
     "Explore a historic site or hidden gem in a new city this year",
     "Join a group day-trip, food tour or game night with fellow travellers",
