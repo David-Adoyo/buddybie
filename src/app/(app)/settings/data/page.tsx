@@ -28,7 +28,7 @@ export default function DataSettingsPage() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "be-a-buddy-data.json";
+    a.download = "buddybie-data.json";
     a.click();
     URL.revokeObjectURL(url);
   }

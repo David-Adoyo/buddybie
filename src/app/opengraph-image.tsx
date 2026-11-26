@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Be a Buddy — Meet People Worth Meeting";
+export const alt = "Buddybie — Meet People Worth Meeting";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -65,7 +65,7 @@ export default function OpengraphImage() {
             }}
           />
         </div>
-        <div style={{ fontSize: 76, fontWeight: 800, color: "#2a2320" }}>Be a Buddy</div>
+        <div style={{ fontSize: 76, fontWeight: 800, color: "#2a2320" }}>Buddybie</div>
         <div style={{ fontSize: 40, color: "#776b62", marginTop: 8 }}>Meet People Worth Meeting</div>
       </div>
     ),

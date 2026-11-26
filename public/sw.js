@@ -1,4 +1,4 @@
-// Be a Buddy service worker — installable PWA with an offline shell.
+// Buddybie service worker — installable PWA with an offline shell.
 // Intentionally minimal for Stage 1; a richer caching strategy (Serwist) is
 // parked for the performance pass. See /docs/PARKING_LOT.md.
 const CACHE = "bab-static-v1";

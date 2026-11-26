@@ -1,4 +1,5 @@
 "use client";
+import { PageHero } from "@/components/page-hero";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -36,17 +37,12 @@ export function DiscoverExplorer() {
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-16 sm:py-24">
-      {/* Header */}
-      <div className="mb-14 space-y-3">
-        <p className="text-sm font-semibold uppercase tracking-widest text-primary">Discover</p>
-        <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
-          Meet People{" "}
-          <span className="text-primary">Worth Meeting.</span>
-        </h1>
-        <p className="text-lg text-muted-foreground">
-          Whether you&apos;re home, travelling, or somewhere brand new — real connections are close.
-        </p>
-      </div>
+      <PageHero
+        eyebrow="Discover"
+        title={<>Meet people <span className="text-brand-gradient">worth meeting.</span></>}
+        subtitle="Whether you're home, travelling, or somewhere brand new — real connections are close."
+        photo="travel"
+      />
 
       {/* Q1 — City */}
       <div className="mb-10 space-y-3">

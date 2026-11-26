@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { Check, Sparkles } from "lucide-react";
+import { PageHero } from "@/components/page-hero";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { Card } from "@/components/ui/card";
@@ -11,7 +12,7 @@ import { memberPlans, bundlePlans, hostPlans } from "@/data/plans";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Pricing — Be a Buddy",
+  title: "Pricing",
   description:
     "Start free. Upgrade any Circle when you are ready — pay monthly or save 30% with an annual plan. Plans for members, bundles and hosts.",
   alternates: { canonical: "/pricing" },
@@ -94,10 +95,7 @@ export default async function PricingPage() {
       <SiteHeader />
       <main id="main-content" className="flex-1">
         <div className="mx-auto max-w-6xl px-4 py-16">
-          <div className="mb-12 max-w-2xl">
-            <h1 className="text-4xl font-extrabold tracking-tight">{t("pricingTitle")}</h1>
-            <p className="mt-3 text-lg text-muted-foreground">{t("pricingSubtitle")}</p>
-          </div>
+          <PageHero eyebrow="Pricing" title={t("pricingTitle")} subtitle={t("pricingSubtitle")} photo="buddy-table" />
 
           {/* Member plans */}
           <section className="mb-16">

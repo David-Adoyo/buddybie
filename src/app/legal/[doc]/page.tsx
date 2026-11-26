@@ -72,8 +72,8 @@ function LegalShell({
         <div className="mt-16 rounded-xl border bg-muted/40 p-5 text-sm text-muted-foreground">
           <p>
             Questions about this document?{" "}
-            <a href="mailto:legal@beabuddy.app" className="font-medium text-foreground hover:underline">
-              legal@beabuddy.app
+            <a href="mailto:legal@buddybie.app" className="font-medium text-foreground hover:underline">
+              legal@buddybie.app
             </a>
           </p>
         </div>
@@ -92,16 +92,16 @@ function PrivacyPage() {
       badgeColor="border-blue-200 bg-blue-50 text-blue-700 dark:border-blue-900/40 dark:bg-blue-950/30 dark:text-blue-300"
       title="Privacy Policy"
       updated="27 October 2026"
-      intro="Be a Buddy Inc. ('we', 'our', 'Be a Buddy') operates the Be a Buddy mobile and web application. This Privacy Policy explains what personal data we collect, why we collect it, how we use and protect it, and your rights under applicable US state privacy laws (including the California Consumer Privacy Act, 'CCPA') and the EU General Data Protection Regulation ('GDPR') where applicable. By creating an account you confirm you have read and understood this policy."
+      intro="Buddybie Inc. ('we', 'our', 'Buddybie') operates the Buddybie mobile and web application. This Privacy Policy explains what personal data we collect, why we collect it, how we use and protect it, and your rights under applicable US state privacy laws (including the California Consumer Privacy Act, 'CCPA') and the EU General Data Protection Regulation ('GDPR') where applicable. By creating an account you confirm you have read and understood this policy."
     >
       <Section title="1. Who we are">
-        <P>Be a Buddy Inc. is incorporated in Delaware, United States. Our registered office and Data Protection Officer ('DPO') can be reached at <a href="mailto:dpo@beabuddy.app" className="font-medium text-foreground hover:underline">dpo@beabuddy.app</a>. We process personal data as a data controller and comply with applicable US federal and state privacy laws and the GDPR where applicable.</P>
+        <P>Buddybie Inc. is incorporated in Delaware, United States. Our registered office and Data Protection Officer ('DPO') can be reached at <a href="mailto:dpo@buddybie.app" className="font-medium text-foreground hover:underline">dpo@buddybie.app</a>. We process personal data as a data controller and comply with applicable US federal and state privacy laws and the GDPR where applicable.</P>
       </Section>
 
       <Section title="2. Data we collect">
         <P><strong className="text-foreground">Account data</strong> — your phone number (used to verify your identity and send you messages), display name, profile photo and city. These are collected at sign-up and are required to use the service.</P>
         <P><strong className="text-foreground">Profile data</strong> — goals, interests, short bio, the Circles you join and your Circle-specific profile content. This content is under your control and can be edited or deleted at any time.</P>
-        <P><strong className="text-foreground">Verification data</strong> — selfie images used for liveness checks, and government-issued ID documents submitted for ID verification. These are processed by our KYC provider and are not stored by Be a Buddy servers beyond the outcome (verified / not verified).</P>
+        <P><strong className="text-foreground">Verification data</strong> — selfie images used for liveness checks, and government-issued ID documents submitted for ID verification. These are processed by our KYC provider and are not stored by Buddybie servers beyond the outcome (verified / not verified).</P>
         <P><strong className="text-foreground">Sensitive data</strong> — if you join Spark (dating) or Faith & Fellowship Circles, we process your declared relationship intent and/or faith background. This is special-category data under the DPA and GDPR. We only process it with your explicit consent, which you give when you set up those Circle profiles. You can withdraw consent and delete this data at any time in Settings → Your Data.</P>
         <P><strong className="text-foreground">Location data</strong> — your city or area (set by you during onboarding and editable). Precise GPS is only used during active SOS and check-in-timer events, and only shared with your nominated trusted contacts. We do not record or store GPS coordinates.</P>
         <P><strong className="text-foreground">Payment data</strong> — if you subscribe to a paid plan, your payment is processed by Stripe, PayPal or ACH bank transfer. We do not store full card numbers. We receive a transaction reference, plan name, amount and timestamp to maintain your subscription status.</P>
@@ -157,19 +157,19 @@ function PrivacyPage() {
           "Objection — object to processing based on legitimate interests.",
           "Withdraw consent — at any time for sensitive-category data, with immediate effect.",
         ]} />
-        <P>To exercise these rights, use the self-service tools in Settings → Your Data, or contact our DPO at <a href="mailto:dpo@beabuddy.app" className="font-medium text-foreground hover:underline">dpo@beabuddy.app</a>. We will respond within 30 days. California residents may also contact the California Privacy Protection Agency; EU residents may lodge a complaint with their local supervisory authority.</P>
+        <P>To exercise these rights, use the self-service tools in Settings → Your Data, or contact our DPO at <a href="mailto:dpo@buddybie.app" className="font-medium text-foreground hover:underline">dpo@buddybie.app</a>. We will respond within 30 days. California residents may also contact the California Privacy Protection Agency; EU residents may lodge a complaint with their local supervisory authority.</P>
       </Section>
 
       <Section title="8. Cookies">
-        <P>We use essential cookies to keep you signed in and to make the app work. We also use optional analytics cookies (only with your consent) to understand how people use Be a Buddy. You can change your cookie preferences at any time using the cookie banner or the footer toggle.</P>
+        <P>We use essential cookies to keep you signed in and to make the app work. We also use optional analytics cookies (only with your consent) to understand how people use Buddybie. You can change your cookie preferences at any time using the cookie banner or the footer toggle.</P>
       </Section>
 
       <Section title="9. Children">
-        <P>Be a Buddy is not directed at children under 16. Spark (dating) requires users to be 18 or older and to complete ID verification. If you believe a minor has created an account, please report it to <a href="mailto:safety@beabuddy.app" className="font-medium text-foreground hover:underline">safety@beabuddy.app</a> immediately.</P>
+        <P>Buddybie is not directed at children under 16. Spark (dating) requires users to be 18 or older and to complete ID verification. If you believe a minor has created an account, please report it to <a href="mailto:safety@buddybie.app" className="font-medium text-foreground hover:underline">safety@buddybie.app</a> immediately.</P>
       </Section>
 
       <Section title="10. Changes to this policy">
-        <P>We will notify you by in-app message and email at least 14 days before making any material changes to this policy. Continued use of Be a Buddy after the effective date constitutes acceptance of the updated policy.</P>
+        <P>We will notify you by in-app message and email at least 14 days before making any material changes to this policy. Continued use of Buddybie after the effective date constitutes acceptance of the updated policy.</P>
       </Section>
     </LegalShell>
   );
@@ -184,11 +184,11 @@ function TermsPage() {
       badgeColor="border-purple-200 bg-purple-50 text-purple-700 dark:border-purple-900/40 dark:bg-purple-950/30 dark:text-purple-300"
       title="Terms of Service"
       updated="27 October 2026"
-      intro="These Terms of Service ('Terms') govern your use of Be a Buddy, operated by Be a Buddy Limited ('Company', 'we', 'us'). By creating an account or using the service you agree to these Terms. If you do not agree, please do not use Be a Buddy."
+      intro="These Terms of Service ('Terms') govern your use of Buddybie, operated by Buddybie Limited ('Company', 'we', 'us'). By creating an account or using the service you agree to these Terms. If you do not agree, please do not use Buddybie."
     >
       <Section title="1. Eligibility">
-        <P>You must be at least 16 years old to create a Be a Buddy account. To use the Spark (dating) Circle, you must be at least 18 years old and complete our government ID verification. By registering you confirm that you meet the applicable age requirement and that the information you provide is accurate and up to date.</P>
-        <P>Be a Buddy is available globally. Some features (e.g. ACH bank transfers, specific event tickets) may only be available in certain countries. We reserve the right to restrict access in any jurisdiction where providing the service would violate local law.</P>
+        <P>You must be at least 16 years old to create a Buddybie account. To use the Spark (dating) Circle, you must be at least 18 years old and complete our government ID verification. By registering you confirm that you meet the applicable age requirement and that the information you provide is accurate and up to date.</P>
+        <P>Buddybie is available globally. Some features (e.g. ACH bank transfers, specific event tickets) may only be available in certain countries. We reserve the right to restrict access in any jurisdiction where providing the service would violate local law.</P>
       </Section>
 
       <Section title="2. Your account">
@@ -196,13 +196,13 @@ function TermsPage() {
           "You are responsible for maintaining the confidentiality of your account and for all activity that occurs under it.",
           "You must not create more than one personal account. Duplicate accounts may be removed without notice.",
           "You must not impersonate any person or entity or create a profile on behalf of someone else without their permission.",
-          "You must promptly notify us at safety@beabuddy.app if you believe your account has been compromised.",
+          "You must promptly notify us at safety@buddybie.app if you believe your account has been compromised.",
           "We may suspend or terminate your account if you breach these Terms or our Community Guidelines.",
         ]} />
       </Section>
 
       <Section title="3. Acceptable use">
-        <P>You agree not to use Be a Buddy to:</P>
+        <P>You agree not to use Buddybie to:</P>
         <Ul items={[
           "Harass, threaten, abuse, stalk or intimidate any person.",
           "Solicit money, gifts, loans or financial information from other members.",
@@ -216,12 +216,12 @@ function TermsPage() {
       </Section>
 
       <Section title="4. Content you post">
-        <P>You retain ownership of the content you post on Be a Buddy (photos, goals, messages). By posting content, you grant Be a Buddy a non-exclusive, royalty-free, worldwide licence to use, display and distribute your content solely to operate and improve the service. We will never sell your content to third parties or use it in external advertising without your explicit consent.</P>
-        <P>You are solely responsible for the content you post. Be a Buddy is not liable for user-generated content, but we actively moderate it and will remove content that violates these Terms or our Community Guidelines.</P>
+        <P>You retain ownership of the content you post on Buddybie (photos, goals, messages). By posting content, you grant Buddybie a non-exclusive, royalty-free, worldwide licence to use, display and distribute your content solely to operate and improve the service. We will never sell your content to third parties or use it in external advertising without your explicit consent.</P>
+        <P>You are solely responsible for the content you post. Buddybie is not liable for user-generated content, but we actively moderate it and will remove content that violates these Terms or our Community Guidelines.</P>
       </Section>
 
       <Section title="5. Subscriptions and payments">
-        <P><strong className="text-foreground">Free tier</strong> — the core features of Be a Buddy are free. Paid plans unlock premium features within specific Circles.</P>
+        <P><strong className="text-foreground">Free tier</strong> — the core features of Buddybie are free. Paid plans unlock premium features within specific Circles.</P>
         <P><strong className="text-foreground">Billing</strong> — subscriptions are billed monthly or annually in advance. Prices are shown in USD but may be converted to your local currency at checkout. All prices are inclusive of any applicable VAT/taxes unless stated otherwise.</P>
         <P><strong className="text-foreground">Cancellation</strong> — you may cancel your subscription at any time in Settings → Plans. Cancellation takes effect at the end of your current billing period; you retain access to premium features until then.</P>
         <P><strong className="text-foreground">Refunds</strong> — see our separate <Link href="/legal/refunds" className="font-medium text-foreground hover:underline">Refund Policy</Link>.</P>
@@ -229,19 +229,19 @@ function TermsPage() {
       </Section>
 
       <Section title="6. Intellectual property">
-        <P>All trademarks, logos, software and design elements of Be a Buddy are owned by or licensed to Be a Buddy Limited. You must not reproduce, distribute or create derivative works from any part of Be a Buddy without our prior written consent.</P>
+        <P>All trademarks, logos, software and design elements of Buddybie are owned by or licensed to Buddybie Limited. You must not reproduce, distribute or create derivative works from any part of Buddybie without our prior written consent.</P>
       </Section>
 
       <Section title="7. Safety and third-party meetups">
-        <P>Be a Buddy facilitates connections between members, but we are not responsible for in-person meetings, events or interactions that take place outside the app. You should always exercise caution and follow the guidance in our <Link href="/legal/safety-centre" className="font-medium text-foreground hover:underline">Safety Centre</Link> before meeting anyone you have connected with online.</P>
+        <P>Buddybie facilitates connections between members, but we are not responsible for in-person meetings, events or interactions that take place outside the app. You should always exercise caution and follow the guidance in our <Link href="/legal/safety-centre" className="font-medium text-foreground hover:underline">Safety Centre</Link> before meeting anyone you have connected with online.</P>
       </Section>
 
       <Section title="8. Disclaimer of warranties">
-        <P>Be a Buddy is provided 'as is' and 'as available' without warranties of any kind. We do not guarantee that the service will be uninterrupted, error-free or that any particular match will be suitable or safe. We disclaim all implied warranties to the fullest extent permitted by law.</P>
+        <P>Buddybie is provided 'as is' and 'as available' without warranties of any kind. We do not guarantee that the service will be uninterrupted, error-free or that any particular match will be suitable or safe. We disclaim all implied warranties to the fullest extent permitted by law.</P>
       </Section>
 
       <Section title="9. Limitation of liability">
-        <P>To the maximum extent permitted by applicable US law, Be a Buddy Inc. shall not be liable for any indirect, incidental, special, consequential or punitive damages arising out of your use of the service. Our aggregate liability to you for any claim shall not exceed the amount you paid to Be a Buddy in the 12 months preceding the claim, or USD 100, whichever is greater.</P>
+        <P>To the maximum extent permitted by applicable US law, Buddybie Inc. shall not be liable for any indirect, incidental, special, consequential or punitive damages arising out of your use of the service. Our aggregate liability to you for any claim shall not exceed the amount you paid to Buddybie in the 12 months preceding the claim, or USD 100, whichever is greater.</P>
       </Section>
 
       <Section title="10. Governing law and disputes">
@@ -249,7 +249,7 @@ function TermsPage() {
       </Section>
 
       <Section title="11. Changes to these Terms">
-        <P>We may update these Terms from time to time. We will give you at least 14 days' notice of material changes via in-app notification. Your continued use of Be a Buddy after the effective date constitutes your acceptance of the updated Terms.</P>
+        <P>We may update these Terms from time to time. We will give you at least 14 days' notice of material changes via in-app notification. Your continued use of Buddybie after the effective date constitutes your acceptance of the updated Terms.</P>
       </Section>
     </LegalShell>
   );
@@ -264,7 +264,7 @@ function CommunityPage() {
       badgeColor="border-green-200 bg-green-50 text-green-700 dark:border-green-900/40 dark:bg-green-950/30 dark:text-green-300"
       title="Community Guidelines"
       updated="27 October 2026"
-      intro="Be a Buddy works because people show up as their real, respectful selves. These guidelines apply to everyone on the platform — in profiles, chats, events and meetups — and exist to protect the warmth and safety that make our Circles worth joining."
+      intro="Buddybie works because people show up as their real, respectful selves. These guidelines apply to everyone on the platform — in profiles, chats, events and meetups — and exist to protect the warmth and safety that make our Circles worth joining."
     >
       <Section title="1. Be authentic">
         <P>Use your real name, a real photo and accurate information. Fake profiles harm the trust that every member depends on. Impersonating another person — whether a celebrity, a public figure or another member — is grounds for immediate removal.</P>
@@ -283,7 +283,7 @@ function CommunityPage() {
 
       <Section title="3. No scams or money requests">
         <P>Do not ask members for money, loans, gift cards, cryptocurrency or any other financial transfer. Do not share links to investment schemes, savings groups run outside the app, or any offer that promises financial returns. These rules apply regardless of the relationship you have built with the other person.</P>
-        <P>Be a Buddy's in-app scam detection will flag and review messages that contain certain patterns. If you receive a money request from another member, please report it immediately using the Report button on their profile. We will freeze the account within 24 hours if the report is substantiated.</P>
+        <P>Buddybie's in-app scam detection will flag and review messages that contain certain patterns. If you receive a money request from another member, please report it immediately using the Report button on their profile. We will freeze the account within 24 hours if the report is substantiated.</P>
       </Section>
 
       <Section title="4. Circles are separate — respect that">
@@ -292,9 +292,9 @@ function CommunityPage() {
       </Section>
 
       <Section title="5. Content standards">
-        <P>The following content is not permitted anywhere on Be a Buddy:</P>
+        <P>The following content is not permitted anywhere on Buddybie:</P>
         <Ul items={[
-          "Sexually explicit imagery or descriptions unless in a designated adult context (currently none exist on Be a Buddy).",
+          "Sexually explicit imagery or descriptions unless in a designated adult context (currently none exist on Buddybie).",
           "Graphic violence or content that glorifies self-harm.",
           "Content that promotes terrorism, extremism or violent crime.",
           "Child sexual abuse material (CSAM) — we report all CSAM immediately to the National Center for Missing and Exploited Children (NCMEC), the Internet Watch Foundation and relevant authorities.",
@@ -310,7 +310,7 @@ function CommunityPage() {
 
       <Section title="7. Reporting and our response">
         <P>Every profile has a Report button. We review all reports within 24 hours. If a report relates to an immediate safety risk, we prioritise it and can freeze an account within the hour. When you report someone, the report is confidential — the reported person cannot see who reported them.</P>
-        <P>You can also email <a href="mailto:safety@beabuddy.app" className="font-medium text-foreground hover:underline">safety@beabuddy.app</a> for anything that needs more context than the in-app form allows.</P>
+        <P>You can also email <a href="mailto:safety@buddybie.app" className="font-medium text-foreground hover:underline">safety@buddybie.app</a> for anything that needs more context than the in-app form allows.</P>
       </Section>
 
       <Section title="8. Enforcement">
@@ -321,7 +321,7 @@ function CommunityPage() {
           "Permanent ban — for the most serious violations (CSAM, repeated harassment after suspension, confirmed scam accounts, doxxing).",
           "Law enforcement referral — where there is evidence of criminal activity.",
         ]} />
-        <P>You may appeal a moderation decision by emailing <a href="mailto:appeals@beabuddy.app" className="font-medium text-foreground hover:underline">appeals@beabuddy.app</a> within 14 days. We aim to respond to appeals within 5 business days.</P>
+        <P>You may appeal a moderation decision by emailing <a href="mailto:appeals@buddybie.app" className="font-medium text-foreground hover:underline">appeals@buddybie.app</a> within 14 days. We aim to respond to appeals within 5 business days.</P>
       </Section>
     </LegalShell>
   );
@@ -336,11 +336,11 @@ function RefundsPage() {
       badgeColor="border-orange-200 bg-orange-50 text-orange-700 dark:border-orange-900/40 dark:bg-orange-950/30 dark:text-orange-300"
       title="Refund Policy"
       updated="27 October 2026"
-      intro="We want you to feel confident paying for Be a Buddy. This policy sets out when refunds are available, how to request one and how quickly you can expect to receive it."
+      intro="We want you to feel confident paying for Buddybie. This policy sets out when refunds are available, how to request one and how quickly you can expect to receive it."
     >
       <Section title="1. Monthly subscriptions">
         <P>Monthly subscriptions can be cancelled at any time. When you cancel, your access to paid features continues until the end of your current billing period — you will not be charged again after that. We do not offer partial-month refunds for cancellations mid-period.</P>
-        <P><strong className="text-foreground">Exception — first-time purchase:</strong> if you purchase a monthly subscription for the first time and cancel within 48 hours, you are entitled to a full refund if you have not used the premium features of that plan. Contact us at <a href="mailto:billing@beabuddy.app" className="font-medium text-foreground hover:underline">billing@beabuddy.app</a> within the 48-hour window to claim this.</P>
+        <P><strong className="text-foreground">Exception — first-time purchase:</strong> if you purchase a monthly subscription for the first time and cancel within 48 hours, you are entitled to a full refund if you have not used the premium features of that plan. Contact us at <a href="mailto:billing@buddybie.app" className="font-medium text-foreground hover:underline">billing@buddybie.app</a> within the 48-hour window to claim this.</P>
       </Section>
 
       <Section title="2. Annual subscriptions">
@@ -348,12 +348,12 @@ function RefundsPage() {
       </Section>
 
       <Section title="3. Event tickets">
-        <P>Tickets for Be a Buddy events are sold with the following refund rules:</P>
+        <P>Tickets for Buddybie events are sold with the following refund rules:</P>
         <Ul items={[
           "More than 72 hours before the event — full refund, minus a 5% platform fee + $0.30 processing charge.",
           "24–72 hours before the event — 50% refund.",
           "Less than 24 hours before the event — no refund, but you may transfer your ticket to another verified member by contacting the event host.",
-          "Event cancelled by host or Be a Buddy — full refund including all fees, within 5 business days.",
+          "Event cancelled by host or Buddybie — full refund including all fees, within 5 business days.",
           "Event rescheduled by host — you may request a full refund within 48 hours of the rescheduling announcement.",
         ]} />
       </Section>
@@ -363,7 +363,7 @@ function RefundsPage() {
       </Section>
 
       <Section title="5. How to request a refund">
-        <P>The quickest way is through the in-app Admin console (if you have moderator access) or by emailing <a href="mailto:billing@beabuddy.app" className="font-medium text-foreground hover:underline">billing@beabuddy.app</a> with:</P>
+        <P>The quickest way is through the in-app Admin console (if you have moderator access) or by emailing <a href="mailto:billing@buddybie.app" className="font-medium text-foreground hover:underline">billing@buddybie.app</a> with:</P>
         <Ul items={[
           "Your registered phone number.",
           "The plan name or event name.",
@@ -374,7 +374,7 @@ function RefundsPage() {
       </Section>
 
       <Section title="6. Disputes">
-        <P>If you disagree with a refund decision, email <a href="mailto:billing@beabuddy.app" className="font-medium text-foreground hover:underline">billing@beabuddy.app</a> with 'DISPUTE' in the subject line. We will escalate to a senior member of the team and respond within 5 business days. If we cannot resolve the dispute, you retain the right to raise it with your payment provider or the relevant consumer protection authority in your country.</P>
+        <P>If you disagree with a refund decision, email <a href="mailto:billing@buddybie.app" className="font-medium text-foreground hover:underline">billing@buddybie.app</a> with 'DISPUTE' in the subject line. We will escalate to a senior member of the team and respond within 5 business days. If we cannot resolve the dispute, you retain the right to raise it with your payment provider or the relevant consumer protection authority in your country.</P>
       </Section>
 
       <Section title="7. Subscriptions obtained fraudulently">
@@ -414,7 +414,7 @@ function SafetyCentrePage() {
       color: "text-secondary-foreground",
       bg: "bg-secondary",
       heading: "Set a check-in timer",
-      body: 'Start the check-in timer in your Safety Kit before you head out. If you do not tap "I am safe" before the timer runs out, Be a Buddy will prompt your trusted contacts. It takes 10 seconds to set up and could make a real difference.',
+      body: 'Start the check-in timer in your Safety Kit before you head out. If you do not tap "I am safe" before the timer runs out, Buddybie will prompt your trusted contacts. It takes 10 seconds to set up and could make a real difference.',
     },
     {
       icon: ArrowRight,
@@ -428,7 +428,7 @@ function SafetyCentrePage() {
       color: "text-destructive",
       bg: "bg-destructive/10",
       heading: "Romance-scam and money-request warning signs",
-      body: "Be extremely cautious if someone you have met on Be a Buddy: asks you to send money or gift cards for any reason; claims to be in an emergency (medical bill, stuck abroad, family crisis); wants to move the conversation off-app very quickly; sends unusually flattering messages early on; or avoids video calls. Never send money to someone you have not met in person — no matter how compelling their story sounds.",
+      body: "Be extremely cautious if someone you have met on Buddybie: asks you to send money or gift cards for any reason; claims to be in an emergency (medical bill, stuck abroad, family crisis); wants to move the conversation off-app very quickly; sends unusually flattering messages early on; or avoids video calls. Never send money to someone you have not met in person — no matter how compelling their story sounds.",
     },
     {
       icon: ShieldCheck,
@@ -451,7 +451,7 @@ function SafetyCentrePage() {
           Meeting people safely
         </h1>
         <p className="mt-3 text-muted-foreground">
-          Be a Buddy connects you with real people for real meetups — and we take that
+          Buddybie connects you with real people for real meetups — and we take that
           responsibility seriously. Please read these guidelines before attending any
           event, dinner or one-to-one meeting arranged through the app.
         </p>
@@ -514,7 +514,7 @@ function SafetyCentrePage() {
           <a href="tel:911" className="font-medium text-foreground hover:underline">
             911
           </a>{" "}
-          (US emergency services) or your local emergency number. Be a Buddy is not a substitute for emergency services.
+          (US emergency services) or your local emergency number. Buddybie is not a substitute for emergency services.
         </p>
       </main>
       <SiteFooter />
@@ -543,11 +543,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { doc } = await params;
   const titles: Record<string, { title: string; description: string }> = {
-    privacy: { title: "Privacy Policy — Be a Buddy", description: "How Be a Buddy collects, uses and protects your personal data under US and EU privacy laws." },
-    terms: { title: "Terms of Service — Be a Buddy", description: "The rules and agreements that govern your use of Be a Buddy." },
-    community: { title: "Community Guidelines — Be a Buddy", description: "How we keep Circles safe, warm and welcoming for everyone." },
-    refunds: { title: "Refund Policy — Be a Buddy", description: "When and how refunds are issued for subscriptions, event tickets and other purchases." },
-    "safety-centre": { title: "Safety Centre — Be a Buddy", description: "How to meet people safely on Be a Buddy — public spaces, safety tools and what to do if something goes wrong." },
+    privacy: { title: "Privacy Policy", description: "How Buddybie collects, uses and protects your personal data under US and EU privacy laws." },
+    terms: { title: "Terms of Service", description: "The rules and agreements that govern your use of Buddybie." },
+    community: { title: "Community Guidelines", description: "How we keep Circles safe, warm and welcoming for everyone." },
+    refunds: { title: "Refund Policy", description: "When and how refunds are issued for subscriptions, event tickets and other purchases." },
+    "safety-centre": { title: "Safety Centre", description: "How to meet people safely on Buddybie — public spaces, safety tools and what to do if something goes wrong." },
   };
   return titles[doc] ?? { title: "Not found" };
 }

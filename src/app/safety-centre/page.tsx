@@ -9,6 +9,7 @@ import {
   Flag,
   ArrowRight,
 } from "lucide-react";
+import { PageHero } from "@/components/page-hero";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { Card } from "@/components/ui/card";
@@ -16,9 +17,9 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Safety Centre — Be a Buddy",
+  title: "Safety Centre",
   description:
-    "Verified members, share-my-plan, check-in timer and in-app SOS. Safety is the product at Be a Buddy.",
+    "Verified members, share-my-plan, check-in timer and in-app SOS. Safety is the product at Buddybie.",
   alternates: { canonical: "/safety-centre" },
 };
 
@@ -66,15 +67,7 @@ export default async function SafetyCentrePage() {
       <main id="main-content" className="flex-1">
         <div className="mx-auto max-w-6xl px-4 py-16">
           {/* Hero */}
-          <div className="mb-16 flex flex-col items-start gap-6 rounded-2xl bg-brand-teal/10 p-8 md:flex-row md:items-center">
-            <span className="flex size-16 shrink-0 items-center justify-center rounded-2xl bg-brand-teal/20 text-brand-teal">
-              <ShieldCheck className="size-8" aria-hidden />
-            </span>
-            <div>
-              <h1 className="text-4xl font-extrabold tracking-tight">{ts("title")}</h1>
-              <p className="mt-2 max-w-prose text-lg text-muted-foreground">{ts("subtitle")}</p>
-            </div>
-          </div>
+          <PageHero eyebrow="Safety is the product" title={ts("title")} subtitle={ts("subtitle")} photo="safety" />
 
           {/* Pillars */}
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
