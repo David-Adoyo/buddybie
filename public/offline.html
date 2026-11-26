@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Offline · Be a Buddy</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        background: #fffbf7;
+        color: #2a2320;
+        text-align: center;
+        padding: 24px;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #1a1613;
+          color: #f2ebe4;
+        }
+      }
+      .mark {
+        width: 56px;
+        height: 42px;
+        margin: 0 auto 20px;
+      }
+      h1 {
+        font-size: 1.5rem;
+        margin: 0 0 8px;
+      }
+      p {
+        color: #776b62;
+        max-width: 28rem;
+        margin: 0 auto 24px;
+      }
+      button {
+        background: #e8604c;
+        color: #fff;
+        border: 0;
+        border-radius: 12px;
+        padding: 12px 24px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <svg class="mark" viewBox="0 0 32 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="9" fill="#e8604c" />
+        <circle cx="21" cy="12" r="9" fill="#f4a826" fill-opacity="0.85" />
+      </svg>
+      <h1>You are offline</h1>
+      <p>
+        Be a Buddy needs a connection to find your people. Check your network
+        and try again.
+      </p>
+      <button onclick="location.reload()">Try again</button>
+    </main>
+  </body>
+</html>

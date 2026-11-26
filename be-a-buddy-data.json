@@ -1,0 +1,63 @@
+{
+  "bab_moderator": true,
+  "bab_onboarding": {
+    "name": "Agwe",
+    "area": "new-york:Brooklyn",
+    "circles": [
+      "faith",
+      "students"
+    ],
+    "goals": [
+      "Join or start a weekly prayer or fellowship group",
+      "Serve in a community outreach at least once a month",
+      "Deepen my daily prayer or devotional practice"
+    ],
+    "quiz": {
+      "q1": 5,
+      "q2": 5,
+      "q3": 5,
+      "q4": 5,
+      "q5": 5,
+      "q6": 5,
+      "q7": 5,
+      "q8": 5,
+      "q9": 5,
+      "q10": 5,
+      "q11": 5,
+      "q12": 5,
+      "q13": 5,
+      "q14": 5,
+      "q15": 5
+    }
+  },
+  "bab_host_type": "venue",
+  "bab_consent": "all",
+  "bab_groups": [],
+  "bab_host_mode": false,
+  "bab_user_goals": [
+    {
+      "id": "onb-0",
+      "circleId": "faith",
+      "title": "Join or start a weekly prayer or fellowship group",
+      "createdAt": 1793114772808
+    },
+    {
+      "id": "onb-1",
+      "circleId": "faith",
+      "title": "Serve in a community outreach at least once a month",
+      "createdAt": 1793114772807
+    },
+    {
+      "id": "onb-2",
+      "circleId": "faith",
+      "title": "Deepen my daily prayer or devotional practice",
+      "createdAt": 1793114772806
+    }
+  ],
+  "bab_active_circle": "students",
+  "bab_likes": [
+    "m-aisha",
+    "m-alex"
+  ],
+  "bab_goals_migrated": 1
+}
