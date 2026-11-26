@@ -34,6 +34,8 @@ const nextConfig: NextConfig = {
   // instead of the whole barrel file.
   experimental: {
     optimizePackageImports: ["lucide-react"],
+    // Set by the Next.js security upgrade (16.4.3 → 16.4.6).
+    agentUpgrade: "security",
   },
   // Modern formats shrink user photos once Supabase Storage is wired up.
   images: {
