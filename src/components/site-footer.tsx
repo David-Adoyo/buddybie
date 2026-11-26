@@ -58,9 +58,10 @@ export function SiteFooter() {
   ];
 
   return (
-    <footer className="mt-auto bg-cream">
+    // `dark` scopes the dark-theme tokens to the footer: a black closing band.
+    <footer className="dark mt-auto bg-[#141413] text-foreground">
       <div className="mx-auto max-w-7xl px-4 pt-14 lg:px-8">
-        <div className="flex flex-col gap-6 rounded-[2rem] bg-background p-6 sm:p-8 lg:flex-row lg:items-center lg:justify-between">
+        <div className="flex flex-col gap-6 rounded-[2rem] bg-cream p-6 sm:p-8 lg:flex-row lg:items-center lg:justify-between">
           <div>
             <p className="text-sm text-muted-foreground">We&apos;re always here when you need us</p>
             <h2 className="font-display text-2xl font-semibold">Need help?</h2>

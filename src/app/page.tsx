@@ -57,6 +57,7 @@ function MediaArt({
   sizes: string;
 }) {
   return (
+    // Brand gradient only shows when the photo is hidden (low-data mode).
     <div className="absolute inset-0 overflow-hidden" style={{ background: `linear-gradient(140deg, ${from}, ${to})` }}>
       {photo && (
         <Image
@@ -68,13 +69,11 @@ function MediaArt({
           className="object-cover transition-transform duration-700 group-hover:scale-105"
         />
       )}
-      {/* Brand tint: fades from clear at the top to the logo colour at the base. */}
+      {/* Neutral black fade for legible captions — keeps the photos' own colour. */}
       <span
         aria-hidden
-        className="absolute inset-0"
-        style={{ background: `linear-gradient(180deg, transparent 35%, ${to}cc 78%, ${to} 100%)` }}
+        className="absolute inset-0 bg-[linear-gradient(180deg,transparent_45%,rgba(14,12,11,0.55)_72%,rgba(14,12,11,0.88)_100%)]"
       />
-      <span aria-hidden className="absolute -right-10 -top-10 size-40 rounded-full mix-blend-soft-light" style={{ background: from }} />
       <Icon aria-hidden className="absolute right-5 top-5 size-9 rounded-full bg-white/90 p-2 text-ink" />
     </div>
   );
@@ -177,13 +176,14 @@ export default async function LandingPage() {
         </section>
 
         {/* ── Solutions grid ───────────────────────────────────── */}
-        <section className="mx-auto max-w-7xl px-4 py-20 lg:px-8 lg:py-28">
+        <section className="bg-[#141413] text-[#f6f1ec]">
+          <div className="mx-auto max-w-7xl px-4 py-20 lg:px-8 lg:py-28">
           <div className="max-w-2xl">
-            <Eyebrow>Friends, faith, work, fun &amp; love</Eyebrow>
+            <Eyebrow className="text-brand-orange">Friends, faith, work, fun &amp; love</Eyebrow>
             <h2 className="mt-4 font-display text-4xl font-semibold tracking-tight sm:text-5xl">
               Together, the possibilities are endless
             </h2>
-            <p className="mt-4 text-lg text-muted-foreground">
+            <p className="mt-4 text-lg text-[#f6f1ec]/70">
               Everything you need to make friends as an adult and keep them — in one verified community.
             </p>
           </div>
@@ -214,6 +214,7 @@ export default async function LandingPage() {
               );
             })}
           </div>
+          </div>
         </section>
 
         {/* ── Benefits split ───────────────────────────────────── */}
@@ -237,7 +238,7 @@ export default async function LandingPage() {
                 { icon: BadgeCheck, title: t("howStep1Title"), desc: t("howStep1Desc") },
               ].map(({ icon: Icon, title, desc }) => (
                 <div key={title} className="rounded-[2rem] bg-background p-6 shadow-sm">
-                  <span className="flex size-12 items-center justify-center rounded-full bg-[image:var(--brand-gradient)] text-white">
+                  <span className="flex size-12 items-center justify-center rounded-full bg-ink text-brand-orange">
                     <Icon className="size-5" aria-hidden />
                   </span>
                   <h3 className="mt-5 font-display text-xl font-semibold">{title}</h3>
